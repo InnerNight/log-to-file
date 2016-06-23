@@ -46,7 +46,7 @@ public final class LogUtils {
 
     private static ExecutorService sLogExecutor = Executors.newSingleThreadExecutor();
 
-    private static final String PREFIX = "YIQI:";
+    private static final String PREFIX = "(YOUR PREFIX):";
     private static boolean sLogEnable = true;
     private static LogLevel sLogLevel = LogLevel.DEBUG;
     private static Queue<String> sMsgQueue = new ArrayBlockingQueue<>(CACHE_QUEUE_SIZE);
